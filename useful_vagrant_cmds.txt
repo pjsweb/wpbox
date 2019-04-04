@@ -1,0 +1,20 @@
+Useful vagrant commands:
+========================
+
+## start Vagrant VB
+$ vagrant up
+
+## SSH into Vagrant VB
+$ vagrant ssh
+
+## shows information about all known Vagrant environments on this machine
+$ vagrant global-status --prune
+
+## reloads config without destroying VM
+$ vagrant up --provision
+
+## updates VB if available
+$ vagrant box update
+
+## destroys VB but leaves local synced files intact
+$ vagrant destroy
