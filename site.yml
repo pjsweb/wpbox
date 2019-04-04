@@ -6,7 +6,7 @@ wp_box: pjsweb/xenial64
 #
 # Network Settings
 #
-hostname: wpbox.test
+hostname: new.test
 ip: 192.168.33.10
 
 #
@@ -14,9 +14,15 @@ ip: 192.168.33.10
 #
 version: latest
 lang: en_GB
-title: Welcome to the VCCW
+title: Welcome to WPBox 
 multisite: false
 rewrite_structure: /archives/%post_id%
+
+#
+# WordPress Options
+#
+options:
+  blogdescription: WordPress in Vagrant.
 
 #
 # WordPress Path
@@ -62,11 +68,6 @@ plugins:
 #
 theme: ''
 
-#
-# WordPress Options
-#
-options:
-  blogdescription: Hello VCCW.
 
 #
 # WordPress Multisite Options
