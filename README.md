@@ -1,18 +1,21 @@
-# VCCW
+Vagrant based development environment for WordPress plugins, themes, or websites.
 
-[![Build Status](https://travis-ci.org/vccw-team/vccw.svg?branch=master)](https://travis-ci.org/vccw-team/vccw)
+## Getting Started
 
-This is a Vagrant configuration designed for development of WordPress plugins, themes, or websites.
+1. Install VirtualBox.
+https://www.virtualbox.org/
 
-To get started, check out <http://vccw.cc/>
+2. Install Vagrant.
+http://www.vagrantup.com/
+
+3. Clone this repository into your working directory
+git clone https://github.com/pjsweb/wpbox.git
 
 ## Configuration
 
-1. Copy `provision/default.yml` to `site.yml`.
 1. Edit the `site.yml`.
-1. Run `vagrant up`.
+2. Run `vagrant up`.
 
 ### Note
-
 * The `site.yml` has to be in the same directory with Vagrantfile.
-* You can put difference to the `site.yml`.
+* You can put differences in the `site.yml`.
