@@ -9,7 +9,8 @@ https://www.virtualbox.org/
 http://www.vagrantup.com/
 
 3. Clone this repository into your working directory
-git clone https://github.com/pjsweb/wpbox.git
+
+    git clone https://github.com/pjsweb/wpbox.git
 
 ## Configuration
 
