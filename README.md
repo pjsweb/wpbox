@@ -10,7 +10,7 @@ http://www.vagrantup.com/
 
 3. Clone this repository into your working directory
 
-    git clone https://github.com/pjsweb/wpbox.git <dir>
+    git clone https://github.com/pjsweb/wpbox.git &lt;dir&gt;
 
 ## Configuration
 
