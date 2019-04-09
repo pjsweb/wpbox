@@ -3,7 +3,7 @@
 acf_zip_file="$(wp plugin path)/acf-pro.zip"
 
 # key
-key='b3JkZXJfaWQ9OTM5ODd8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE2LTExLTIwIDE0OjMyOjIy'
+key=$ACF_PRO_KEY
 
 # get acf zip file
 wget -q -O ${acf_zip_file} "http://connect.advancedcustomfields.com/index.php?p=pro&a=download&k=$key"
