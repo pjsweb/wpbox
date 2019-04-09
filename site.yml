@@ -6,7 +6,7 @@ wp_box: pjsweb/xenial64
 #
 # Network Settings
 #
-hostname: new.test
+hostname: wordpress.devel 
 ip: 192.168.33.10
 
 #
@@ -87,8 +87,6 @@ gitignore: https://raw.githubusercontent.com/github/gitignore/master/WordPress.g
 # Addtional PHP code in the wp-config.php
 #
 extra_wp_config: |
-  // Addtional PHP code in the wp-config.php
-  // These lines are inserted by VCCW.
-  // You can place addtional PHP code here!
-
+  define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
+  define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
 
